@@ -1,0 +1,90 @@
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    body {
+        width: 480px;
+        margin: 0 auto;
+    }
+    #a-container {
+        height: 75px;
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #b-container {
+        height: 150px;
+        width: 480px;
+    }
+    #c-container {
+        height: 125px;
+        width: 480px;
+    }
+    #d-container {
+        height: 125px;
+        width: 480px;
+    }
+    #e-container {
+        height: 250px;
+        width: 240px;
+    }
+    #f-container {
+        height: 250px;
+        width: 240px;
+    }
+    #g-container {
+        height: 250px;
+        width: 240px
+    }
+    #h-container {
+        height: 250px;
+        width: 240px;
+    }
+    #i-container {
+        height: 80px;
+        width: 480px;
+    }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+    body {
+        width: 960px;
+        margin: 0 auto;
+    }
+    #a-container {
+        height: 100px;
+        width: 960px;
+    }
+    #b-container {
+        height: 600px;
+        width: 200px;
+    }
+    #c-container {
+        height: 200px;
+        width: 380px;
+    }
+    #d-container {
+        height: 200px;
+        width: 380px;
+    }
+    #e-container {
+        height: 250px;
+        width: 190px;
+    }
+    #f-container {
+        height: 250px;
+        width: 190px;
+    }
+    #g-container {
+        height: 250px;
+        width: 190px
+    }
+    #h-container {
+        height: 250px;
+        width: 190px;
+    }
+    #i-container {
+        height: 150px;
+        width: 760px;
+    }
+}

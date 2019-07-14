@@ -1,0 +1,79 @@
+* {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+/*For mobile phones: */
+@media only screen and (max-width: 768px) {
+    #a-container {
+        background-color: rgb(0, 50, 50);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+    #b-container {
+        background-color: rgb(0, 60, 60);
+    }
+    #c-container {
+        background-color: rgb(0, 70, 70);
+    }
+    #d-container {
+        background-color: rgb(0, 80, 80);
+    }
+    #e-container {
+        background-color: rgb(0, 90, 90);
+    }
+    #f-container {
+        background-color: rgb(0, 100, 100);
+    }
+    #g-container {
+        background-color: rgb(0, 110, 110);
+    }
+    #h-container {
+        background-color: rgb(0, 120, 120);
+    }
+    #i-container {
+        background-color: rgb(0, 130, 130);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+}
+
+/*For desktop: */
+@media only screen and (min-width: 768px) {
+    #a-container {
+        background-color: rgb(50, 0, 50);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+    #b-container {
+        background-color: rgb(60, 0, 60);
+    }
+    #c-container {
+        background-color: rgb(70, 0, 70);
+    }
+    #d-container {
+        background-color: rgb(80, 0, 80);
+    }
+    #e-container {
+        background-color: rgb(90, 0, 90);
+    }
+    #f-container {
+        background-color: rgb(100, 0, 100);
+    }
+    #g-container {
+        background-color: rgb(110, 0, 110);
+    }
+    #h-container {
+        background-color: rgb(120, 0, 120);
+    }
+    #i-container {
+        background-color: rgb(130, 0, 130);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+}
