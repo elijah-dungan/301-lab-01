@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/*For mobile phones: */
+@media only screen and (max-width: 768px) {
+    #e-container {
+        float: left;
+    }
+    #f-container {
+        float: left;
+    }
+    #g-container {
+        float: left;
+    }
+    #h-container {
+        float: left;
+    }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+    #b-container {
+        float: left;
+    }
+    #d-container {
+        float: left;
+    }
+    #c-container {
+        float: left;
+    }
+    #e-container {
+        float: left;
+    }
+    #f-container {
+        float: left;
+    }
+    #g-container {
+        float: left;
+    }
+    #h-container {
+        float: left;
+    }
+}
